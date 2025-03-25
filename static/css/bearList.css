@@ -1,0 +1,977 @@
+#header .nav{
+    box-shadow: 0 0 18px rgb(0 0 0 / 6%);
+}
+.main{
+    width: 100%;
+    background: #f8fafc;
+    overflow: hidden;
+}
+.main .layout{
+    margin-top: 25px;
+}
+.main_left{
+    width: 93px;
+}
+/* 左侧分类导航栏 */
+.main_left .classification{
+    width:100px;
+    margin-left: 7px;
+}
+.main_left .classification .title{
+    font-size: 13px;
+    color: #b6b6b8;
+}
+.classification.floatL dl{
+    margin-top: 20px;
+}
+.main_left .classification dl dt {
+    margin-top: 10px;
+    transition: transform .3s ease;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5b5b5b;
+    cursor: pointer;
+}
+.main_left .classification dl dt span.icons{
+    width: 6px;
+    height: 9px;
+    display: inline-block;
+    background-position: -418px -294px;
+    margin-left: 10px;
+}
+.main_left .classification dl dt:hover{
+    /* transform: translateX(5px); */
+    color: #5398ff;
+}
+.main_left .classification dl.active dt{
+    /* transform: translateX(5px); */
+    color: #5398ff;
+    font-weight: 600;
+}
+.main_left .classification dl dt a {
+    color: #757575;
+}
+
+.main_left .classification dl dt a:hover {
+    color: #5398ff;
+    font-weight: 600;
+}
+
+.main_left .classification dl.active dt a {
+    color: #5398ff;
+}
+.main_left .classification dl.active dt span.icons{
+    width: 9px;
+    height: 6px;
+    background-position: -400px -298px;
+}
+.main_left .classification dl.active2 dt a{
+    /* transform: translateX(5px); */
+    color: #5398ff;
+}
+.main_left .classification dl.active2 dt span.icons{
+    width: 9px;
+    height: 6px;
+    background-position: -400px -298px;
+    transform: translateY(-50%) rotate(-90deg);
+    transition: transform .3s ease;
+}
+.main_left .classification dl dd{
+    margin-left: 6px;
+    transition: transform .3s ease;
+    display: none;
+}
+.main_left .classification dl dd a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 20px;
+    transition: transform .3s ease;
+}
+.main_left .classification dl dd a:hover{
+   color: #5398ff;
+   /* transform: translateX(5px); */
+}
+.main_left .classification dl dd a.active{
+   color: #5398ff;
+}
+.main_left .classification dl.active dd{
+   display: block;
+   transition: transform .3s ease;
+}
+/* 列表布局一 样式 */
+.main_right.list_layout1{
+    width: 1065px;
+    margin-left: 35px;
+}
+.main_right.list_layout1 .softwareList{
+    width: 725px;
+}
+.main_right.list_layout1 .softwareList .topTitle h2{
+    font-size: 20px;
+    color: #3c4248;
+    font-weight: 400;
+}
+.main_right.list_layout1 .softwareList .topTitle a {
+    font-size: 20px;
+    color: #3c4248;
+    font-weight: 400;
+}
+.main_right.list_layout1 .softwareList .topTitle ul{
+    padding-left: 10px;
+}
+.main_right.list_layout1 .softwareList .topTitle ul li{
+    float: left;
+    font-size: 15px;
+    color: #757575;
+    margin-left: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.main_right.list_layout1 .softwareList .topTitle ul li span.icons{
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-position: -434px -296px;
+    margin: 0 auto;
+    display: none;
+}
+.main_right.list_layout1 .softwareList .topTitle ul li.active{
+    font-weight: bold;
+    color: #5398ff;
+}
+.main_right.list_layout1 .softwareList .topTitle ul li:hover{
+    font-weight: bold;
+    color: #5398ff;
+}
+.main_right.list_layout1 .softwareList .topTitle ul li.active span.icons{
+    display: block;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn{
+    margin-top: 5px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1{
+    width: 26px;
+    height: 27px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(1){
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: -376px -334px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(2){
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: -376px -334px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(3){
+    width: 10px;
+    height: 2px;
+    display: inline-block;
+    background-position: -390px -338px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(4){
+    width: 10px;
+    height: 2px;
+    display: inline-block;
+    background-position: -390px -338px;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(1),.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(2){
+   background-position: -298px -336px;
+   transform: rotate(135deg);
+   transition: transform .2s ease;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(3),.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(4){
+    background-position: -424px -338px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(1),.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(2){
+    background-position: -298px -336px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(3),.main_right.list_layout1 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(4){
+    background-position: -424px -338px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2 i.icons{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: -376px -334px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(1){
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(4){
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2:hover i.icons,.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2.active i.icons{
+    background-position: -298px -336px;
+}
+.main_right.list_layout1 .softwareList .topTitle .btn .listLayout2:hover i.icons:nth-of-type(2){
+    transform: rotate(135deg);
+   transition: transform .2s ease;
+}
+.main_right.list_layout1 .softwareList .list ul{
+    margin-top: 20px;
+    border-top: 1px solid #f1f2f4;
+}
+.main_right.list_layout1 .softwareList .list ul li{
+    background: #fff;
+    border: 1px solid #f1f2f4;
+    border-top: none;
+    overflow: hidden;
+}
+.main_right.list_layout1 .softwareList .list ul li a{
+    display: block;
+    overflow: hidden;
+    padding: 19px 25px;
+}
+.main_right.list_layout1 .softwareList .list ul li img{
+    width: 45px;
+    height: 45px;
+    float: left;
+    border-radius: 10px;
+    transition: transform .3s ease-in-out,translateY .3s ease-in-out;
+}
+.main_right.list_layout1 .softwareList .list ul li .middle{
+    float: left;
+    margin-left: 25px;
+    width: 300px;
+}
+.main_right.list_layout1 .softwareList .list ul li .middle h3{
+    font-size: 18px;
+    color: #3c4248;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.main_right.list_layout1 .softwareList .list ul li .middle h3 span{
+    font-size: 14px;
+    color: #3c4248;
+    font-weight: 400;
+    opacity: .5;
+}
+.main_right.list_layout1 .softwareList .list ul li .middle p span{
+    font-size: 15px;
+    color: #757575;
+    display: inline-block;
+    line-height: 24px;
+    /* width: 195px; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    font-weight: 400;
+    opacity: .5;
+}
+.main_right.list_layout1 .softwareList .list ul li .middle p i.size{
+    font-size: 12px;
+    color: #757575;
+    font-style: inherit;
+    vertical-align: middle;
+    font-weight: 400;
+    opacity: .5;
+}
+.main_right.list_layout1 .softwareList .list ul li .right{
+    font-size: 15px;
+    color: #757575;
+    line-height: 24px;
+    float: left;
+    margin-top: 12px;
+    width: 255px;
+    margin-left: 5px;
+    font-weight: 400;
+    opacity: .7;
+}
+.main_right.list_layout1 .softwareList .list ul li .right span{
+    margin-left: 15px;
+    width: 60px;
+    display: inline-block;
+}
+.main_right.list_layout1 .softwareList .list ul li .right span:nth-child(1) {
+    margin-left: 0px;
+    display: inline-block;
+    width: 80px;
+}
+.main_right.list_layout1 .softwareList .list ul li .right .down i.icons{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-position: -82px -4px;
+    margin-right: 4px;
+}
+.main_right.list_layout1 .softwareList .list ul li .right .softcomment i.icons{
+    display: inline-block;
+    width: 13px;
+    height: 11px;
+    background-position: -98px -4px;
+    margin-right: 4px;
+}
+.main_right.list_layout1 .softwareList .list ul li .right .softUpdateTime i.icons{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-position: -118px -4px;
+    margin-right: 4px;
+}
+.main_right.list_layout1 .list span.jt {
+    float: right;
+    margin-top: 12px;
+}
+.main_right.list_layout1 .softwareList .list ul li .jt i.icons{
+    display: inline-block;
+    width: 38px;
+    height: 10px;
+    background-position: -135px -5px;
+}
+.main_right.list_layout1 .softwareList .list ul li:hover .middle h3{
+    color: #4690fe;
+}
+.main_right.list_layout1 .softwareList .list ul li:hover .jt i.icons{
+    background-position: -177px -5px;
+}
+.main_right.list_layout1 .softwareList .list ul li:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 0 26px rgb(0 61 131 / 10%);
+}
+.main_right.list_layout1 .list .softIcon .softIcon-hover{
+    --size: 64px;
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    background-image: var(--img);
+    border-radius: 55px;
+    opacity: .6;
+    transform: scale(0) translateX(-50%);
+    filter: blur(20px) opacity(70%);
+    z-index: -1;
+    transition-delay: .05s;
+    transition: transform .3s ease-in-out;
+}
+.main_right.list_layout1 .list ul li:hover .softIcon-hover {
+    transform: scale(1);
+}
+.main_right.list_layout1 .softIcon .softIcon-hover {
+    top: -10px;
+    left: -3px;
+}
+/* 本周热门 */
+.main_right.list_layout1 .rightPlate{
+    width: 308px;
+}
+.main_right.list_layout1 .rightPlate .weekHot{
+    border: 1px solid #edeff1;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.main_right.list_layout1 .rightPlate .weekHot h2{
+    font-size: 17px;
+    color: #2f3439;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+.main_right.list_layout1 .rightPlate .weekHot h2::after{
+    content: '';
+    width: 43px;
+    height: 3px;
+    background: #5398ff;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -21px;
+    bottom: 0px;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li{
+    background: #f8fafc;
+    border-top: 1px solid #f0f2f4;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+    transition: transform .3s ease-in-out,translateY .3s ease-in-out,box-shadow .3s ease-in-out;
+    overflow: hidden;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li a{
+    display: block;
+    padding: 15px 25px 15px 20px;
+    overflow: hidden;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li:hover{
+    background: #fff;
+    box-shadow: 0 0 26px rgb(0 61 131 / 10%);
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li:hover .middle h3{
+    color: #408bf8;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li:hover .phNum{
+    color: #629ff8;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li .phNum{
+    width: 35px;
+    display: block;
+    font-size: 28px;
+    color: #ceced1;
+    margin-top: 5px;
+    text-align: center;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li .middle{
+    display: block;
+    margin-left: 25px;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li .middle h3{
+    font-size: 16px;
+    color: #757575;
+    width: 163px;
+    font-weight: 400;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li .middle p{
+    font-size: 12px;
+    color: #757575;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: .7;
+    margin-top: 5px;
+    width: 163px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main_right.list_layout1 .rightPlate .weekHot ul li img{
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+}
+.main_right.list_layout1 .rightPlate .weekHot.totalPh{
+    margin-top: 30px;
+}
+.main_right.list_layout1 .rightPlate .softIcon {
+    position: relative;
+}
+
+.main_right.list_layout1 .rightPlate .softIcon .softIcon-hover {
+    background-color: var(--color);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_right.list_layout1 .rightPlate .softIcon .softIcon-hover{
+    --size: 60px;
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: -10px;
+    left: -13px;
+    background-image: var(--img);
+    border-radius: 55px;
+    opacity: .6;
+    transform: scale(0) translateX(-50%);
+    filter: blur(20px) opacity(70%);
+    z-index: 0;
+    transition-delay: .05s;
+    transition: transform .3s ease-in-out;
+}
+.main_right.list_layout1 .rightPlate ul li:hover .softIcon-hover {
+    transform: scale(1);
+}
+
+
+/* 列表布局二样式 */
+.main_right.list_layout2{
+    width: 1065px;
+    margin-left: 35px;
+}
+.main_right.list_layout2 .softwareList{
+    width: 1065px;
+}
+.main_right.list_layout2 .softwareList .topTitle h2{
+    font-size: 20px;
+    color: #3c4248;
+    font-weight: 400;
+}
+.main_right.list_layout2 .softwareList .topTitle a{
+    font-size: 20px;
+    color: #3c4248;
+    font-weight: 400;
+}
+.main_right.list_layout2 .softwareList .topTitle ul{
+    padding-left: 10px;
+}
+.main_right.list_layout2 .softwareList .topTitle ul li{
+    float: left;
+    font-size: 15px;
+    color: #6e6e6e;
+    margin-left: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.main_right.list_layout2 .softwareList .topTitle ul li span.icons{
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-position: -434px -296px;
+    margin: 0 auto;
+    display: none;
+}
+.main_right.list_layout2 .softwareList .topTitle ul li.active{
+    font-weight: bold;
+    color: #5398ff;
+}
+.main_right.list_layout2 .softwareList .topTitle ul li:hover{
+    font-weight: bold;
+    color: #5398ff;
+}
+.main_right.list_layout2 .softwareList .topTitle ul li.active span.icons{
+    display: block;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn{
+    margin-top: 5px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1{
+    width: 26px;
+    height: 27px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(1){
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: -376px -334px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(2){
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: -376px -334px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(3){
+    width: 10px;
+    height: 2px;
+    display: inline-block;
+    background-position: -390px -338px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1 i:nth-of-type(4){
+    width: 10px;
+    height: 2px;
+    display: inline-block;
+    background-position: -390px -338px;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(1),.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(2){
+   background-position: -298px -336px;
+   transform: rotate(135deg);
+   transition: transform .2s ease;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(3),.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1:hover i:nth-of-type(4){
+    background-position: -424px -338px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(1),.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(2){
+    background-position: -298px -336px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(3),.main_right.list_layout2 .softwareList .topTitle .btn .listLayout1.active i:nth-of-type(4){
+    background-position: -424px -338px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2 i.icons{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-position: -376px -334px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(1){
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2 i.icons:nth-of-type(4){
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2:hover i.icons,.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2.active i.icons{
+    background-position: -298px -336px;
+}
+.main_right.list_layout2 .softwareList .topTitle .btn .listLayout2:hover i.icons:nth-of-type(2){
+    transform: rotate(135deg);
+   transition: transform .2s ease;
+}
+.main_right.list_layout2 .rightPlate{
+   display: none;
+}
+.main_right.list_layout2 .list ul li:nth-child(4n){
+    margin-right: 0px;
+}
+.main_right.list_layout2 .list ul {
+    overflow: hidden;
+}
+.main_right.list_layout2 .list ul li{
+    width: 248px;
+    height: 298px;
+    border: 1px solid #f2f3f4;
+    float: left;
+    background: #fff;
+    margin-top: 22px;
+    border-radius: 5px;
+    margin-right: 18px;
+    transition: transform .3s ease-in-out,translateY .3s ease-in-out,box-shadow .3s ease-in-out;
+    overflow: hidden;
+}
+.main_right.list_layout2 .list ul li a{
+    display: block;
+    padding: 0px 20px;
+}
+.main_right.list_layout2 .list ul li img{
+    width: 63px;
+    height: 63px;
+    margin-top: 29px;
+    border-radius: 10px;
+    transition: transform .3s ease-in-out,translateY .3s ease-in-out;
+    
+}
+.main_right.list_layout2 .list ul li .middle h3{
+    font-size: 20px;
+    color: #24292f;
+    font-weight: 500;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.main_right.list_layout2 .list ul li .middle p{
+    font-size: 16px;
+    color: #aaaaaa;
+    line-height: 24px;
+    text-align: justify;
+    margin-top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 48px;
+}
+.main_right.list_layout2 .list ul li .right{
+    margin-top: 15px;
+}
+.main_right.list_layout2 .list .right span{
+    color: #aaaaaa;
+    font-size: 13px;
+    margin-right: 2px;
+}
+.main_right.list_layout2 .list .right span.down i{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-position: -82px -4px;
+    margin-right: 4px;
+}
+.main_right.list_layout2 .list .right span.softcomment i{
+    display: inline-block;
+    width: 13px;
+    height: 11px;
+    background-position: -98px -4px;
+    margin-right: 4px;
+}
+.main_right.list_layout2 .list .right span.softUpdateTime i{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-position: -118px -4px;
+    margin-right: 4px;
+}
+.main_right.list_layout2 .list span.jt i{
+    display: block;
+    width: 38px;
+    height: 10px;
+    background-position: -135px -5px;
+    margin-top: 25px;
+}
+.main_right.list_layout2 .list ul li:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgb(84 81 81 / 15%);
+    z-index: 1;
+}
+.main_right.list_layout2 .list ul li:hover h3{
+    color: #3e8dff;
+}
+.main_right.list_layout2 .list ul li:hover span.jt i{
+    background-position: -177px -5px;
+}
+.main_right.list_layout2 .list ul li:hover img{
+    transform: scale(1.1);
+    /* transform: rotateZ(360deg); */
+    transition: transform .5s ease-in-out 0s;
+    -webkit-transition: transform .5s ease-in-out 0s;
+}
+
+.main_right.list_layout2 .list .softIcon {
+    position: relative;
+}
+
+.main_right.list_layout2 .list .softIcon .softIcon-hover {
+    background-color: var(--color);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_right.list_layout2 .list .softIcon .softIcon-hover{
+    --size: 83px;
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: -55px;
+    left: -10px;
+    background-image: var(--img);
+    border-radius: 55px;
+    opacity: .6;
+    transform: scale(0) translateX(-50%);
+    filter: blur(20px) opacity(70%);
+    z-index: -1;
+    transition-delay: .05s;
+    transition: transform .3s ease-in-out;
+}
+.main_right.list_layout2 .list ul li:hover .softIcon-hover {
+    transform: scale(1);
+}
+.main_right.list_layout2 .softwareList .list ul li .middle p i.size {
+    font-size: 14px;
+    color: #d5d5d5;
+    font-style: inherit;
+    vertical-align: middle;
+}
+
+/* 分页 */
+.pages{
+    text-align: center;
+    margin-top: 25px;
+}
+.pages a{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #edeeee;
+    font-size: 20px;
+    color: #666565;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 15px;
+}
+.pages a:hover{
+    border: 1px solid #3d8ef7;
+    color: #3489f7;
+}
+.pages span{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #3d8ef7;
+    font-size: 20px;
+    color: #3489f7;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 15px;
+}
+.pages font a{
+    width: 110px;
+    border: none;
+    font-size: 19px;
+    color: #4f4e4e;
+    margin-left: 0px;
+}
+.pages font:nth-of-type(1) a{
+    margin-right: 15px;
+}
+.pages font:nth-of-type(2) a{
+    margin-left: 15px;
+}
+.pages font a.prev::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background: url("../image/prev.png") no-repeat;
+    margin-right: 15px;
+ }
+ .pages font a.next::after{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background: url("../image/next.png") no-repeat;
+    margin-left: 15px;
+ }
+.pages font a:hover{
+    border: none;
+    color: #4f4e4e;
+}
+.footer{
+    margin-top: 0px;
+}
+.main{
+    padding-bottom: 40px;
+}
+   /* 分页 */
+   .pagingWrap {
+    position: relative;
+    left: 50%;
+    float: left;
+}
+.paging {
+    position: relative;
+    left: -50%;
+    margin-top: 20px;
+}
+.paging div{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #edeeee;
+    font-size: 20px;
+    color: #666565;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.paging .first,.paging .last{
+    width: 50px;
+    height: 25px;
+}
+.paging .prev{
+    margin-right: 55px;
+}
+.paging .next{
+    margin-left: 55px;
+}
+.paging .prev,.paging .next{
+    width: 110px;
+    border: none;
+    font-size: 19px;
+    color: #4f4e4e;
+}
+.paging .prev::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background: url(../image/prev.png) no-repeat;
+    margin-right: 15px;
+}
+.paging .next::after{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background: url(../image/next.png) no-repeat;
+    margin-left: 15px;
+}
+.paging div.disable {
+    color: #cdcdcf;
+    cursor: not-allowed;
+}
+.paging .prev.disable::before{
+    background: url(../image/disableprev.png) no-repeat;
+}
+.paging .next.disable::after{
+    background: url(../image/disablenext.png) no-repeat;
+}
+.paging div.active {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #3d8ef7;
+    font-size: 20px;
+    color: #3489f7;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 15px;
+}
+.paging .pagingDiv:hover {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #3d8ef7;
+    font-size: 20px;
+    color: #3489f7;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 15px;
+}
+/* 面包屑导航 */
+.position{
+    padding-top: 20px;
+    background: #f8fafc;
+    margin-top: 0px;
+}
