@@ -1,0 +1,49 @@
+﻿
+/**
+ * 快压 - “行业文章” 引用css文件
+ * @created by lizhigao(lizhigao@021.com)
+ * @date 2015-08-26
+ */
+/* 通用panel样式 */
+.panel .panel-header:before{content: ''; position: absolute; top: 20%; height: 60%; background-color: #0092EF; width: 3px;}
+.panel .panel-header{position: relative;}
+.panel .panel-header h4{padding-left: 10px; line-height: 2em;}
+.panel .panel-header a{position: absolute; right: 10px; top: 21%;}
+.panel .panel-body{border: 1px solid #eee; width: 100%;}
+
+/* 行业文章列表左侧 start */
+.ia-left{width: 700px;}
+.ia-list{margin: 15px 20px;}
+.ia-list li{margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dashed #eee;}
+.ia-list li h5{line-height: 2em;}
+.ia-list li h5 a{color: #0092EF;}
+.ia-list li h5{color: #0092EF;}
+.ia-list li small{color: #999;}
+.ia-list li p{margin-top: 10px; line-height: 2em;}
+.ia-list li p a{color: #F7981D;}
+/* 行业文章列表左侧 end */
+
+/* 行业文章列表右侧 start */
+.ia-right{width: 275px;}
+.article-list{margin: 5px 10px;}
+.article-list li{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:255px; line-height: 2em;}
+.article-list li span{background-color: #C2C2C2; padding: 0 4px; margin-right: 5px; color: white; border-radius: 2px;}
+.article-list li span.active{background-color: #F7981D;}
+/* 行业文章列表右侧 end */
+
+/* 行业文章详情 start */
+p.crumbs{position: absolute; top: -20px;}
+.ia-details-left{border: 1px solid #eee; margin-top: 8px; width: 700px; min-height: 605px;}
+/* 文章内容 */
+.article-wrap{margin: 15px 20px; padding-bottom: 30px; border-bottom: 1px dashed #ccc; line-height: 2em;}
+.article-wrap small{margin: 10px 0;}
+.prevNext-wrap{margin: 30px 20px;}
+/* 相关阅读 */
+.related-read{margin: 15px 20px; line-height: 2em;}
+.related-read h4{position: relative; padding-left: 10px;}
+.related-read h4:before{content: ''; position: absolute; top: 3px; left: 0; height: 20px; background-color: #0092EF; width: 3px;}
+.related-read .rr-list li:before{content: ''; display: inline-block; width: 5px; height: 5px; background-color: #0092EF; margin: 0 8px 2px 0;}
+/* 行业文章详情 end */
+
+
+/*.friend-link-wrap{margin: 2464px auto 10px;}*/

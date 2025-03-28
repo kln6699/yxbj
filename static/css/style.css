@@ -1,0 +1,38 @@
+﻿/*
+Theme Name: DChaser
+Theme URI: http://dchaser.dearb.me
+Author: BelinChung
+Author URI: http://dearb.me
+Description: 梦想追逐者是一款以白色为主、简洁而大方的 WordPress 主题，适合个人博客、企业和工作室用。
+Version: 1.3
+License: MIT
+License URI: https://github.com/BelinChung/DChaser/blob/master/LICENSE.md
+*/
+
+
+
+/*Alignment*/
+.alignleft {
+   display:inline;
+   float:left;
+   margin-right:1.625em;
+}
+.alignright {
+   display:inline;
+   float:right;
+   margin-left:1.625em;
+}
+.aligncenter {
+   clear:both;
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.banner00 h2{
+    margin-bottom: 20px;
+}
+.banner00 .banner-intro p,
+.banner00 .banner-intro a{
+    margin-left: 150px;
+}
